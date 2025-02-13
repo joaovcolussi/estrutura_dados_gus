@@ -41,3 +41,26 @@
 
 # numeros =["par" if numero % 2 ==0 else "impar" for numero in range(10)]
 # print(numeros)
+
+
+# x = 5
+# print(id(x))
+# x = 7
+# print(id(x))
+
+# nome = "Barbabé"
+# print(id(nome))
+
+# nome += "Cristiano"
+# print(id(nome))
+
+
+# filme = ["Pulp", "Bastards Inglorious", "Django Livre"]
+# print(id(filme))
+# filme.append("In Hateful Eight")
+# print(id(filme))
+
+def somar (a, b):
+  return a + b;
+
+print(somar(4,3))
